@@ -15,7 +15,7 @@ The final analysis is visualised using Tableau dashboard.
 - clean_and_load.py: reads the CSV file, cleans the column names (removing parentheses and replacing spaces with underscores), and loads the cleaned data into an SQLite database.
 - main.py: connects to the SQLite database, runs all the predefined queries, and saves the results to CSV files
 - queries.py: Contains the SQL queries and functions to execute each query, saving the results to CSV files.
-- SQL_DB_ALTERATIONS.sql:contains all the alterations I made to the database after loading in the cleaned CSV. The purpose was to better define categories, eliminate NULLs and refine the data as needed. 
+- SQL_DB_ALTERATIONS.sql:contains all the alterations I made to the database after loading in the cleaned CSV. Through use of UPDATE to update or modify the value of a column in the table.The purpose was to better define categories.
 
 ### Processes
 Data Cleaning and Transformation
@@ -23,7 +23,7 @@ Data Cleaning and Transformation
  - Data Cleaning: Removed unwanted characters from column names
 
 Database Management & Analysis
-- SQL: storing data, queries for data analysis and altering data.
+- SQL: storing data, queries for data analysis and UPDATE data.
     
 Automation
 - Python Scripting: Automated data cleaning, loading, and querying processes.
