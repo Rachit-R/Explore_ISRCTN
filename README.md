@@ -12,10 +12,10 @@ The final analysis is visualised using Tableau dashboard.
 [Exploring_Completed_Trials_ISRCTN](https://public.tableau.com/views/Exploring_Completed_Trials_ISRCTN/Dashboard1?:language=en-GB&publish=yes&:sid=&:display_count=n&:origin=viz_share_link)
 
 ## Project Structure
-- clean_and_load.py: reads the CSV file, cleans the column names (removing parentheses and replacing spaces with underscores), and loads the cleaned data into an SQLite database.
-- main.py: connects to the SQLite database, runs all the predefined queries, and saves the results to CSV files
+- clean_and_load.py: Reads the CSV file, cleans the column names (removing parentheses and replacing spaces with underscores), and loads the cleaned data into an SQLite database.
+- main.py: Connects to the SQLite database, runs all the predefined queries, and saves the results to CSV files
 - queries.py: Contains the SQL queries and functions to execute each query, saving the results to CSV files.
-- SQL_DB_ALTERATIONS.sql:contains all the alterations I made to the database after loading in the cleaned CSV. Through use of UPDATE to update or modify the value of a column in the table.The purpose was to better define categories.
+- SQL_DB_ALTERATIONS.sql: Contains all the alterations I made to the database after loading in the cleaned CSV. Through use of UPDATE to update or modify the value of a column in the table.The purpose was to better define categories.
 
 ### Processes
 Data Cleaning and Transformation
