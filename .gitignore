@@ -3,3 +3,5 @@
 isrctn_data.db
 *.db
 /.idea
+/__pycache__
+isrctn_data.csv
