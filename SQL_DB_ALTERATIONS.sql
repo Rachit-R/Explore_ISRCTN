@@ -1,5 +1,6 @@
 -- Data Refinement
 
+'''
 1) Reassign NULL values to not specified in Intervention_type
 2) Group participant types into more appropriate buckets
 3) For sponsor country add category "joint" for multiple countries
@@ -8,7 +9,7 @@
 6) Change condition category from not specified to Not applicable 
 7) Change intervention type of Genetic to Other.
 8) Changed studies by age group, 'Other' merged into 'Not specified', 'All' to 'Mixed', 'Senior' to 'Adult'
-9) 
+'''
 
 1)
 UPDATE ISRCTN
