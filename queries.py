@@ -8,7 +8,7 @@ def execute_and_save_query(conn, query, filename):
     Parameters:
     - conn: SQLite database connection object.
     - query: SQL query to execute.
-    - filename: Path to the CSV file to save the results.
+    - filename: Path to CSV file to save results.
     """
     df = pd.read_sql_query(query, conn)
     df.to_csv(filename, index=False)
